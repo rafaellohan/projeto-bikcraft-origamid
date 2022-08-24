@@ -22,12 +22,13 @@ li {
   list-style: none;
 }
 
-ul {
+.menu {
   display: flex;
   gap: 1.25rem;
   flex-wrap: wrap; /*Arrumando a quebra de linha */
   justify-content: center; /* Sempre que quebrar vai ser alinhado ao centro */
   margin: 0px;
+  padding: 0px;
 }
 
 .item a {
@@ -129,6 +130,7 @@ p {
 .vantagens {
   background-color: #fff;
   padding: 2.5rem;
+  margin: 0;
 }
 
 .vantagens-item {
